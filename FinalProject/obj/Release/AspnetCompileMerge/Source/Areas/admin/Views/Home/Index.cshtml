@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <img src="~/Content/img/core-img/logo2.png"" alt="Thăng Đông Furniture Logo" class="img-fluid" style="max-width: 300px;">
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Chào mừng đến với trang quản trị viên</h1>
+        <p class="lead">Đây là trang quản trị viên của Thăng Đông Furniture.</p>
+        <hr class="my-4">
+        <p>Bạn có thể sử dụng các công cụ và tính năng của trang quản trị viên để quản lý và chỉnh sửa nội dung của trang web.</p>
+        <a class="btn btn-primary btn-lg" href="https://localhost:44307/" role="button">Quay về trang chính</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <i class="fa fa-bars fa-5x text-center mt-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý menu</h5>
+                    <p class="card-text">Thêm, sửa và xoá các menu trên trang web.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="@Url.Action("Index", "menus")"" class="btn btn-sm btn-outline-secondary">Xem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <i class="fa fa-shopping-cart fa-5x text-center mt-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý sản phẩm</h5>
+                    <p class="card-text">Thêm, sửa và xoá các sản phẩm trên trang web.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="@Url.Action("Index", "products")" class="btn btn-sm btn-outline-secondary">Xem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <i class="fa fa-shopping-basket fa-5x text-center mt-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý giỏ hàng</h5>
+                    <p class="card-text">Quản lý các sản phẩm được thêm vào giỏ hàng trên trang web.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Xem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <i class="fa fa-envelope fa-5x text-center mt-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý liên hệ</h5>
+                    <p class="card-text">Quản lý các tin nhắn liên hệ của khách hàng gửi đến trang web.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Xem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <i class="fa fa-newspaper fa-5x text-center mt-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý tin tức</h5>
+                    <p class="card-text">Quản lý các tin tức được cập nhật hằng ngày của trang web.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="@Url.Action("Index", "news")" class="btn btn-sm btn-outline-secondary">Xem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

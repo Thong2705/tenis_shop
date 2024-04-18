@@ -1,0 +1,22 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<FinalProject.Models.product>
+
+@foreach (var item in Model)
+{
+    <div class="single-products-catagory clearfix">
+        <a href="/san-pham/@item.meta/@item.id">
+            <img src="~/Content/img/product-img/@item.img" alt="">
+            <!-- Hover Content -->
+            <div class="hover-content">
+                <div class="line"></div>
+                @{
+                    decimal price = Convert.ToDecimal(@item.price);
+                }
+                <p>@price.ToString("N0")<span>đ</span></p>
+                <h4 style="font-family: Arial, Helvetica, sans-serif;">@item.name</h4>
+            </div>
+        </a>
+    </div>
+}
+

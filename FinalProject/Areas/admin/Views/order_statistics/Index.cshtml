@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Index";
+    var dailyStatistics = ViewBag.DailyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>;
+    //var monthlyStatistics = ViewBag.MonthlyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>;
+    //var yearlyStatistics = ViewBag.YearlyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>;
+    Layout = "~/Areas/admin/Views/Shared/_Layout.cshtml";
+}
+
+@section _Header
+{
+    <link href="~/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+}
+
+div class="container-fluid">
+
+<!-- Page Heading -->
+<div class="container">
+    <h1 class="text-center text-uppercase text-primary text-shadow">
+        <i class="far fa-newspaper"></i> Thống kê đơn hàng
+    </h1>
+</div>
+
+<h2>Thống kê số đơn hàng trong một ngày</h2>
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <tr>
+        <th>Ngày</th>
+        <th>Số đơn hàng</th>
+    </tr>
+    @foreach (var item in ViewBag.DailyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>)
+    {
+        <tr>
+            <td>@item.Date.ToShortDateString()</td>
+            <td>@item.NumberOfOrders</td>
+        </tr>
+
+    }
+</table>
+<a href="@Url.Action("DownloadDailyCsv")" class="btn btn-primary">
+    Tải xuống
+</a>
+
+<h2>Thống kê số đơn hàng trong một tháng</h2>
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <tr>
+        <th>Tháng</th>
+        <th>Số đơn hàng</th>
+    </tr>
+    @foreach (var item in ViewBag.MonthlyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>)
+    {
+        <tr>
+            <td>@item.Date.ToString("MM/yyyy")</td>
+            <td>@item.NumberOfOrders</td>
+        </tr>
+    }
+</table>
+<a href="@Url.Action("DownloadMonthlyCsv")" class="btn btn-primary">
+    Tải xuống
+</a>
+
+
+<h2 class="table table-bordered" id="dataTable" width="100%" cellspacing="0">Thống kê số đơn hàng trong một năm</h2>
+<table>
+    <tr>
+        <th>Năm</th>
+        <th>Số đơn hàng</th>
+    </tr>
+    @foreach (var item in ViewBag.YearlyStatistics as List<FinalProject.Models.OrderStatisticsViewModel>)
+    {
+        <tr>
+            <td>@item.Date.Year</td>
+            <td>@item.NumberOfOrders</td>
+        </tr>
+    }
+</table>
+<a href="@Url.Action("DownloadYearlyCsv")" class="btn btn-primary">
+    Tải xuống
+</a>
+
+
+@section _Footer
+{
+
+    <!-- Page level plugins -->
+    @*<script src="~/vendor/datatables/jquery.dataTables.min.js"></script>*@
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/Scripts/demo/datatables-demo.js"></script>
+}

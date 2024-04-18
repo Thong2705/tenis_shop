@@ -1,0 +1,5 @@
+﻿@model List<FinalProject.Models.category>
+@foreach (var i in Model)
+    {
+           <li><a style=" background-color: bisque;" href="@i.link/@i.meta">@i.name</a></li>
+    }

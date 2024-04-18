@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title  -->
+    <title>@ViewBag.Title</title>
+    <!-- Favicon  -->
+    <link rel="icon" href="~/Content/img/core-img/favicon.ico">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="~/Content/core-style.css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <script src="~/Scripts/jquery/jquery-2.2.4.min.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+</head>
+<body>
+    <!-- Search Wrapper Area Start -->
+    <div class="search-wrapper section-padding-100">
+        <div class="search-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-content">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                            <button type="submit"><img src="~/Content/img/core-img/search.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Wrapper Area End -->
+    <!-- ##### Main Content Wrapper Start ##### -->
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <!-- Mobile Nav (max width 767px)-->
+        <div class="mobile-nav">
+            <!-- Navbar Brand -->
+            <div class="amado-navbar-brand">
+                <a href="index.html"><img src="~/Content/img/core-img/logo.png" alt=""></a>
+            </div>
+            <!-- Navbar Toggler -->
+            <div class="amado-navbar-toggler">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <!-- Header Area Start -->
+        <header class="header-area clearfix">
+            <!-- Close Icon -->
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <!-- Logo -->
+            <div class="gif-container" style="margin-bottom:40px">
+                <a href="/"><img style="width:200px; height: 200px" src="~/Content/gif/Layout/tenis.png" alt="logo"></a>
+            </div>
+
+            <!-- Amado Nav -->
+            @{ Html.RenderAction("getMenu", "Menu");}
+            <!-- Button Group -->
+            <!-- Cart Menu -->
+            <div class="cart-fav-search mb-100">
+                <a href="/gio-hang" class="cart-nav"><img src="~/Content/img/core-img/cart.png" alt=""> Cart <span id='ItemCount'></span></a>
+                <a href="#" class="fav-nav"><img src="~/Content/img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="~/Content/img/core-img/search.png" alt=""> Search</a>
+            </div>
+            <!-- Social Button -->
+            <div class="social-info d-flex justify-content-between">
+                <a href="https://localhost:44307/admin"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+
+        </header>
+
+        @RenderBody()
+    </div>
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix" style=" background-color: #1c231a;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <!-- Logo -->
+                        <div class="gif-container" style="margin-bottom:40px">
+                            <img src="~/Content/gif/Layout/tenis.png" alt="logo">
+                        </div>
+                        <!-- Copywrite Text -->
+                        <p class="copywrite">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> & Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                @{ Html.RenderAction("Footer", "Home");}
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+  
+    <!-- Popper js -->
+    <script src="~/Scripts/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="~/Scripts/plugins.js"></script>
+    <!-- Active js -->
+    <script src="~/Scripts/active.js"></script>
+    <script src="~/Scripts/ShoppingCart.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<style>
+    .main-content-wrapper .header-area {
+        background-color: antiquewhite;
+    }
+    .main-content-wrapper {
+        background-image: linear-gradient(#FFFBE9, #F4EAD5, #D0B8A8);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card-body {
+        background-color: seashell;
+    }
+    .cart-nav {
+        position: relative;
+    }
+
+    #ItemCount {
+        position: absolute;
+        top: 0.1px;
+        /* right: 1px; */
+        background-color: #216722;
+        color: white;
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+</style>

@@ -1,0 +1,108 @@
+﻿@model IEnumerable<FinalProject.Models.cartItem>
+@{
+    Layout = null;
+}
+<table style="font-family: Arial, Helvetica, sans-serif;" class="table table-responsive">
+    <thead>
+        <tr>
+            <th>Ảnh</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            var Tongtien = 0.0;
+            Console.WriteLine("true");
+            foreach (var item in Model)
+            {
+                Tongtien += item.totalprice;
+                <tr id="throw_@item.productid">
+                    <td class="cart_product_img" style="width:250px">
+                        <a href="#"><img src="~/Content/img/product-img/@item.img" alt="Product"></a>
+                    </td>
+                    <td class="cart_product_desc" style="width:250px">
+                        <h5>@item.productname</h5>
+                    </td>
+                    <td class="price" style="width:100px">
+                        @{
+                            decimal price = Convert.ToDecimal(@item.price);
+                        }
+                        <p>@price.ToString("N0")<span  style="font-family: Arial, Helvetica, sans-serif;">đ</span></p>
+                    </td>
+                    <td class="qty" style="width:90px">
+                        <input type="number" class="form-control" id="Quantity_@item.productid" value="@item.quantity" />
+                    </td>
+                    <th class="price" style="width:100px">
+                        @{
+                            decimal totalprice = Convert.ToDecimal(@item.totalprice);
+                        }
+                        <p>@totalprice.ToString("N0")<span style="font-family: Arial, Helvetica, sans-serif;">đ</span></p>
+                    </th>
+                    <td>
+                        <a href="#" data-id="@item.productid" style="font-family: Arial" class="btn btn-sm btn-danger btnDelete">Xoá</a>
+                        <a href="#" data-id="@item.productid" style="font-family: Arial" class="btn btn-sm btn-success btnUpdate">Cập Nhật</a>
+                    </td>
+                </tr>
+            }
+            <tr>
+                <th colspan="5" class="text-right"><span style="font-family: Arial, Helvetica, sans-serif;">TỔNG TIỀN: </span></th>
+                <th>
+                    @{
+                        decimal total = Convert.ToDecimal(Tongtien);
+                    }
+                    <th>@total.ToString("N0")<span style="font-family: Arial, Helvetica, sans-serif;">đ</span></th>
+                </th>
+                <th></th>
+            </tr>
+            <tr>
+                <th colspan="4" class="text-right"></th>
+                <th>
+                    <a href="#" class="button delete btnDeleteAll" style="white-space: nowrap;">Xoá Giỏ Hàng</a>
+                </th>
+                <th>
+                    <a href="/thanh-toan" class="button checkout" style="white-space: nowrap;">Thanh toán</a>
+                </th>
+            </tr>
+
+        }
+        else
+        {
+            <tr>
+                <td colspan="7">Không có sản phẩm nào trong giỏ hàng!!</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<style>
+    .button {
+        display: inline-block;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .delete {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .checkout {
+        background-color: #007bff;
+        color: white;
+    }
+    .button:hover{
+        font-size:inherit;
+    }
+
+</style>

@@ -1,0 +1,73 @@
+﻿@model FinalProject.Models.category
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_Layout.cshtml";
+}
+@section _Header
+{
+    <link href="~/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="container">
+        <h1 class="text-center text-uppercase text-primary text-shadow">
+            <i class="fas fa-shopping-bag"></i> Quản lý sản phẩm
+        </h1>
+    </div>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                
+                    <p>
+                        @Html.DropDownListFor(model => model.id, (SelectList)ViewBag.Category, "----Tất cả sản phẩm----",
+                       new { @class = "form-control", @id = "Category" })
+                    </p>
+                    <p>
+                        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-outline-primary" })
+                    </p>
+
+                <div id="getProduct"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section _Footer
+{
+
+    <!-- Page level plugins -->
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Scripts/demo/datatables-demo.js"></script>
+    <script>
+        $(document).ready(function () {
+            function getProduct() {
+                var CategoryId = $('#Category').val();
+                $.ajax({
+                    url: '@Url.Action("getProduct", "products")',
+                    type: "GET",
+                    data: { id: CategoryId },
+                    success: function (data) {
+                        $("#getProduct").html(data);
+
+                    },
+                    error: function (data) {
+                        alert("something went wrong.");
+
+                    }
+                });
+            }
+            getProduct();
+            $("#Category").change(function () {
+                getProduct();
+            })
+        });
+
+
+    </script>
+}

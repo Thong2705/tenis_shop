@@ -1,0 +1,96 @@
+﻿@model IEnumerable<FinalProject.Models.product>
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Tên sản phẩm")
+            </th>
+            <th>
+                @Html.DisplayName("Giá")
+            </th>
+            <th>
+                @Html.DisplayName("Hình ảnh")
+            </th>
+            <th>
+                @Html.DisplayName("Mô tả")
+            </th>
+            <th>
+                @Html.DisplayName("Kích thước")
+            </th>
+            <th>
+                @Html.DisplayName("Màu sắc")
+            </th>
+            <th>
+                @Html.DisplayName("Ẩn sản phẩm")
+            </th>
+            <th>
+                @Html.DisplayName("Thứ tự sản phẩm")
+            </th>
+            <th>
+                @Html.DisplayName("Số lượng")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(modelItem => item.name)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.price)
+                </th>
+                <th>
+                    <img src="~/Content/img/product-img/@item.img" width="100px" />
+                </th>
+                <td class="des" style="max-height: 4em;max-width:22em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                    @item.description
+                </td>
+                <th>
+                    @Html.DisplayFor(modelItem => item.size)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.color)
+                </th>
+                <th>
+                    @if (item.hide == true)
+                    {
+                        <text>Ẩn</text>
+                    }
+                    else
+                    {
+                        <text>Hiện</text>
+                    }
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.order)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.quantity)
+                </th>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-primary">
+                        <i class="fas fa-pencil-alt"></i>
+                    </a>
+                    <a href="@Url.Action("Details", new { id = item.id })" class="btn btn-info">
+                        <i class="fa fa-info-circle"></i>
+                    </a>
+
+                    <a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            responsive: true
+        });
+    });
+</script>

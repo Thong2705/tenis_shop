@@ -1,0 +1,108 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<FinalProject.Models.news>
+
+<head>
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+</head>
+<div class="pagination-container1">
+    <span>Trang @Model.PageNumber / @Model.PageCount</span>
+    @Html.PagedListPager(Model, page => Url.Action("Index", "News", new { page }))
+</div>
+@foreach (var item in Model)
+{
+    <div class="row mb-lg-4">
+        <div class="col-sm-6 mb-4">
+            <div class="card">
+                <img class="card-img-top fixed-size" src="~/Content/img/save-img/@item.img" alt="Card image cap">
+            </div>
+        </div>
+        <div class="col-sm-6 mb-4">
+            <h5 class="card-title"><i class="fas fa-newspaper"></i>@item.name</h5>
+            @{
+                var shortDescription = "";
+                if (!string.IsNullOrEmpty(item.description))
+                {
+                    shortDescription = item.description.Length > 200 ? item.description.Substring(0, 200) + "..." : item.description;
+                }
+                else
+                {
+                    shortDescription = "-----Không có mô tả chi tiết-----";
+                }
+            }
+            <p class="card-text">@Html.Raw(shortDescription)</p>
+
+            <a href="/tin-tuc/@item.meta/@item.id" class="btn btn-primary btn-view-more" style="position: absolute; border-color: black; bottom: 0; left: 50%; transform: translateX(-50%); color:black;">Xem chi tiết</a>
+        </div>
+    </div>
+}
+
+@{
+    var options = new PagedListRenderOptions()
+    {
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+        DisplayLinkToLastPage = PagedListDisplayMode.Always,
+        LinkToFirstPageFormat = "First",
+        LinkToLastPageFormat = "Last",
+        LinkToNextPageFormat = "Next",
+        LinkToPreviousPageFormat = "Prev",
+        MaximumPageNumbersToDisplay = 5,
+        PageCountAndCurrentLocationFormat = "Page {0} of {1}",
+        UlElementClasses = new[] { "pagination" },
+        LiElementClasses = new[] { "page-item" },
+
+    };
+}
+
+<div class="pagination-container1">
+    <span>Trang @Model.PageNumber / @Model.PageCount</span>
+    @Html.PagedListPager(Model, page => Url.Action("Index", "News", new { page }))
+</div>
+
+<style>
+    .btn-view-more {
+        background-color: #dfdac9; /* Màu nền của nút */
+        color: #fff; /* Màu chữ của nút */
+        font-size: 18px; /* Kích thước chữ của nút */
+        border-radius: 25px; /* Bo góc của nút */
+        padding: 12px 24px; /* Khoảng cách giữa chữ và viền của nút */
+        margin: 0 auto; /* Canh giữa nút */
+        display: block; /* Chuyển nút thành block để canh giữa */
+    }
+
+        .btn-view-more:hover {
+            color: white;
+            font-size: inherit;
+        }
+
+    .btn-primary:hover {
+        color: white;
+        background-color: #9f9a8c;
+        border-color: white;
+    }
+
+    .card-body {
+        height: 230px;
+    }
+
+    .card-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* số dòng tối đa muốn hiển thị */
+        -webkit-box-orient: vertical;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 300px; /* hoặc kích thước tùy ý */
+        object-fit: revert; /* hoặc object-fit: contain; */
+    }
+
+    .card-img-top {
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+    }
+</style>
+

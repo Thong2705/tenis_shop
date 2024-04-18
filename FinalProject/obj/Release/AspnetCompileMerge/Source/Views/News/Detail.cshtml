@@ -1,0 +1,96 @@
+﻿@model FinalProject.Models.news
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<!-- Hiển thị nội dung tin tức-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="container news-section mt-5 border border-secondary mb-5 p-4">
+        <div class="container">
+            <div class="image-container">
+                <img src="~/Content/gif/Home/TTMN.gif" alt="TTMN">
+            </div>
+            <div class="col-lg-12">
+                <hr>
+                <div class="image-container">
+                    <img src="~/Content/img/save-img/@Model.img" class="image_detail" alt="News Image">
+                </div>
+                <hr>
+                <h1 class="text-center"><i class="fas fa-newspaper"></i>@Model.name</h1>
+                <div class="card-body" style="height: auto">
+
+                    <p class="card-text">
+                        @{
+                            var shortDescription = "";
+                            if (!string.IsNullOrEmpty(Model.description))
+                            {
+                                shortDescription = Model.description;
+                            }
+                            else
+                            {
+                                shortDescription = "-----Không có mô tả chi tiết-----";
+                            }
+                        }
+
+                        @Html.Raw(shortDescription.Replace("<p>", "<span style=\"font-weight:bold\">").Replace("</p>", "</span>"))
+                    </p>
+                    @{
+                        var shortDetail = "";
+                        if (!string.IsNullOrEmpty(Model.detail))
+                        {
+                            shortDetail = Model.detail;
+                        }
+                        else
+                        {
+                            shortDetail = "-----Không có Chi tiết-----";
+                        }
+                    }
+                    <p class="card-text">@Html.Raw(shortDetail)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hiển thị tin tức khác -->
+    <div class="container news-section mt-5 border border-secondary mb-5 p-4" style="border-width: 3px; border-style: solid; border-color: gray; padding: 20px;">
+        <h2 class="text-center mb-4"><i class="fas fa-newspaper"></i> Tin tức khác</h2>
+        <div class="row">
+            @{ Html.RenderAction("getNews", "Default");}
+        </div>
+    </div>
+
+</body>
+</html>
+
+<style>
+    .btn-view-more {
+        background-color: #ffc107; /* Màu nền của nút */
+        color: #fff; /* Màu chữ của nút */
+        font-size: 18px; /* Kích thước chữ của nút */
+        border-radius: 25px; /* Bo góc của nút */
+        padding: 12px 24px; /* Khoảng cách giữa chữ và viền của nút */
+        display: block; /* Chuyển nút thành block để canh giữa */
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #000;
+        border-color: black;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_detail {
+        align-self: center;
+    }
+    hr {
+        border-bottom: groove;
+        border-bottom-style: double;
+    }
+
+</style>

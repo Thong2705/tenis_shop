@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<head>
+    <link href="~/Content/HomeIndex.css" rel="stylesheet" />
+</head>
+<!-- Product Catagories Area Start -->
+<body>
+
+    <div class="products-catagories-area clearfix">
+        <div class="my-custom-div"></div>
+
+        <div class="container" style="max-width: 1240px;">
+            <div class="ticker">
+                <div class="title">
+                    <h5>WELCOME!</h5>
+                </div>
+                <div class="news">
+                    <marquee class="news-content">
+                        <p>Cửa hàng Thăng Đông Furniture xin chào mừng quý khách đến với trang web của chúng tôi. Chúng tôi là một cửa hàng nội thất uy tín và chất lượng, chuyên cung cấp các sản phẩm nội thất cao cấp, đẹp mắt và phù hợp với mọi không gian sống. Ở đây, chúng tôi sẽ cho quý khách một số mẫu nội thất mới nhất của cửa hàng Thăng Đông Furniture, cùng với những ưu điểm và lợi ích của chúng. Hãy cùng khám phá nhé! </p>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+        <div class="my-custom-div"></div>
+
+        <div class="gif-container"></div>
+
+        <div class="gif-container">
+            <img src="~/Content/gif/Home/SPNB.gif" alt="Các sản phẩm nổi bật">
+        </div>
+        @*<div class="amado-pro-catagory clearfix">
+            @{ Html.RenderAction("getProduct", "Default");}
+        </div>*@
+    </div>
+
+    <!-- News Section Start -->
+    <div class="container news-section mt-5 border border-secondary mb-5 p-4" style="border-width: 3px; border-style: solid; border-color: gray; padding: 20px;background-color: seashell;">
+        <div class="d-flex align-items-center mb-4">
+            <div class="gif-container">
+                <img src="~/Content/gif/Home/TTMN.gif" alt="TTMN">
+            </div>
+            <div class="ml-auto">
+                <a href="https://localhost:44307/tin-tuc" style="font-family: Arial" class="btn btn-info">Xem tất cả</a>
+            </div>
+        </div>
+
+        @*<div class="row">
+            @{ Html.RenderAction("getNews", "Default");}
+        </div>*@
+    </div>
+</body>
+<!-- News Section End -->
+<!-- Product Catagories Area End -->
+<!-- ##### Main Content Wrapper End ##### -->
+<!-- ##### Newsletter Area Start ##### -->
+<!-- ##### Newsletter Area End ##### -->
+    
+
+

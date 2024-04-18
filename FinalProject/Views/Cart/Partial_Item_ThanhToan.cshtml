@@ -1,0 +1,30 @@
+﻿@model IEnumerable<FinalProject.Models.cartItem>
+@{
+    Layout = null;
+}
+@if (Model != null && Model.Any())
+{
+    <h5 style="font-family: Arial, Helvetica, sans-serif;">Tổng giỏ hàng<span > (</span><span>@Model.Count()</span><span style="font-family: Arial, Helvetica, sans-serif;"> sản phẩm)</span></h5>
+    var Tongtien = 0.0;
+    Console.WriteLine("true");
+    <ul class="summary-table">
+        @foreach (var item in Model)
+        {
+            Tongtien += item.totalprice;
+            <li>
+                <span  style="font-family: Arial, Helvetica, sans-serif;">@item.productname<span> (</span><span>@item.quantity sp)</span></span>                         
+                @{
+                    decimal price = Convert.ToDecimal(@item.price);
+                }
+                <p style="font-family: Arial, Helvetica, sans-serif;">@price.ToString("N0") đồng</p>
+            </li>
+        }
+        <li><span style="font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-family: Arial, Helvetica, sans-serif;">Tổng tiền</span> 
+            <span style="color: green; font-weight: bold;">
+                @{
+                    decimal total = Convert.ToDecimal(Tongtien);
+                }
+                @total.ToString("N0")<span style="font-family: Arial, Helvetica, sans-serif; color: green; font-weight: bold;"> đồng</span>
+            </span></li>
+    </ul>
+}

@@ -1,0 +1,22 @@
+﻿@model List<FinalProject.Models.image_product>
+
+<div id="product_details_slider" class="carousel slide" data-ride="carousel" style=" box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);">
+    <ol class="carousel-indicators">
+        @foreach (var i in Model)
+        {
+            <li data-target="#product_details_slider" data-slide-to="@i.order" style="background-image: url('@Url.Content("~/Content/img/product-img/" + i.img)');"></li>
+        }
+    </ol>
+    <div class="carousel-inner">
+        @foreach (var i in Model)
+        {
+            <div class="carousel-item @if (i.order == 0) { <text>active</text> }">
+                <a class="gallery_img" href="@Url.Content("~/Content/img/product-img/" + i.img)">
+                    <img class="d-block w-100" src="@Url.Content("~/Content/img/product-img/" + i.img)" alt="Image @i.order">
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+

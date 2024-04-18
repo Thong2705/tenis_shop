@@ -1,0 +1,100 @@
+﻿ .my-custom-div {
+        height: 30px;
+    }
+
+    .gif-container {
+        margin-top: 20px;
+    }
+
+
+    .ticker {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50px;
+        margin: 0 auto
+    }
+
+    .news {
+        width: 76%;
+        background: #CCD5AE;
+        padding: 0 2%
+    }
+
+    .title {
+        width: 20%;
+        text-align: center;
+        background: #E9EDC9;
+        position: relative
+    }
+
+        
+
+        .title h5 {
+            font-size: 18px;
+            margin: 8% 0
+        }
+
+    .news marquee {
+        font-size: 18px;
+        margin-top: 12px
+    }
+
+    .news-content p {
+        margin-right: 41px;
+        display: inline
+    }
+    p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #333;
+    }
+    .carousel-item {
+        position: relative;
+    }
+
+    .caption {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 1rem;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        filter: invert(100%);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        font-size: 30px;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+    .more:hover {
+        font-size: 16px;
+        color: red;
+    }
+    body {
+        font-family: "Nunito",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        /*background-image: url("~/Content/img/core-img/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;*/
+    }
+    .btn:hover {
+        font-size: inherit;
+    }
+
+

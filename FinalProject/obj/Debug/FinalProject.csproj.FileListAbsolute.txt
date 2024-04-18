@@ -1,0 +1,544 @@
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csc.exe
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csc.exe.config
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csc.rsp
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csi.exe
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csi.exe.config
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\csi.rsp
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.AppContext.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Console.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Net.Http.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\vbc.exe
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\vbc.exe.config
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\vbc.rsp
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Antlr3.Runtime.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Newtonsoft.Json.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Optimization.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\WebGrease.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Optimization.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Newtonsoft.Json.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\The Vinh\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\FinalProject.dll.config
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\FinalProject.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\FinalProject.pdb
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe.config
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csc.rsp
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe.config
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\csi.rsp
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.AppContext.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Console.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Http.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Sockets.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.ValueTuple.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe.config
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\vbc.rsp
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\EntityFramework.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Razor.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\WebGrease.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\EntityFramework.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.Razor.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.pdb
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.pdb
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\FinalProject.dll.config
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\FinalProject.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\FinalProject.pdb
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe.config
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csc.rsp
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe.config
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\csi.rsp
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.AppContext.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Console.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Http.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Sockets.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.ValueTuple.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe.config
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\vbc.rsp
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\EntityFramework.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Razor.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\WebGrease.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\EntityFramework.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.Razor.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\FinalProject.dll.config
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\FinalProject.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\FinalProject.pdb
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe.config
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csc.rsp
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe.config
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\csi.rsp
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.AppContext.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Console.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Http.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe.config
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\vbc.rsp
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\EntityFramework.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Razor.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\WebGrease.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\EntityFramework.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.Razor.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.pdb
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\CKFinder.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\CKFinder.pdb
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\CKFinder.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\CKFinder.pdb
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\PagedList.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.dll
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\PagedList.xml
+D:\Hoc Tap\.net\Đù án\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\PagedList.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.dll
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\PagedList.xml
+C:\Hoc\.Net\Cuối Kỳ\Đồ án\Code\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\FinalProject.dll.config
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\FinalProject.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\FinalProject.pdb
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csc.exe.config
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csc.rsp
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csi.exe.config
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\csi.rsp
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Console.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Http.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\vbc.exe.config
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\vbc.rsp
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\CKFinder.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\EntityFramework.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\PagedList.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Razor.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\WebGrease.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\CKFinder.pdb
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\EntityFramework.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\PagedList.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Optimization.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.Razor.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Newtonsoft.Json.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\admin\Downloads\FinalProject cua tui\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\CKFinder.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\PagedList.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.dll
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\CKFinder.pdb
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\PagedList.xml
+C:\Users\The Vinh\Desktop\FinalProject cua tui\FinalProject\bin\PagedList.Mvc.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\FinalProject.dll.config
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\FinalProject.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\FinalProject.pdb
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csc.exe
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csc.exe.config
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csc.rsp
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csi.exe
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csi.exe.config
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\csi.rsp
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.AppContext.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Console.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.IO.Compression.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Net.Http.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Net.Sockets.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.ValueTuple.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Xml.XPath.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\vbc.exe
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\vbc.exe.config
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\vbc.rsp
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Antlr3.Runtime.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\CKFinder.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\EntityFramework.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Newtonsoft.Json.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\PagedList.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\PagedList.Mvc.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Helpers.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Mvc.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Optimization.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Razor.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\WebGrease.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\CKFinder.pdb
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\EntityFramework.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\PagedList.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\PagedList.Mvc.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Helpers.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Mvc.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Optimization.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.Razor.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Newtonsoft.Json.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\obj\Debug\FinalProject.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\obj\Debug\FinalProject.pdb
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\CsvHelper.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.Bcl.HashCode.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Buffers.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Memory.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Numerics.Vectors.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Threading.Tasks.Extensions.dll
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\CsvHelper.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\Microsoft.Bcl.HashCode.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Buffers.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Memory.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Numerics.Vectors.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Hoc\.Net\ASP.NET_FurnitureStore-main\FinalProject\bin\System.Threading.Tasks.Extensions.xml

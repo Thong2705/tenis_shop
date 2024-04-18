@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ShopEntities-Web.config Connection String" description="ShopEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=704-28\SQLEXPRESS;initial catalog=Shop;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Hoc\\\.Net\\ASP\.NET_FurnitureStore-main\\FinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ShopEntities']/@connectionString" />
+  </parameter>
+  <parameter name="ShopEntities1-Web.config Connection String" description="ShopEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-MDFK4DCS\SQLEXPRESS;initial catalog=Shop;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Hoc\\\.Net\\ASP\.NET_FurnitureStore-main\\FinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ShopEntities1']/@connectionString" />
+  </parameter>
+  <parameter name="ShopEntities2-Web.config Connection String" description="ShopEntities2 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-MDFK4DCS\SQLEXPRESS;initial catalog=Shop;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Hoc\\\.Net\\ASP\.NET_FurnitureStore-main\\FinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ShopEntities2']/@connectionString" />
+  </parameter>
+</parameters>

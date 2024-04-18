@@ -1,0 +1,120 @@
+﻿@model IEnumerable<FinalProject.Models.order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_Layout.cshtml";
+}
+
+@section _Header
+{
+    <link href="~/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="container">
+        <h1 class="text-center text-uppercase text-primary text-shadow">
+            <i class="far fa-newspaper"></i> Quản lý đơn hàng
+        </h1>
+    </div>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayName("Mã đơn hàng")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Tên khách hàng")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Số điện thoại")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Địa chỉ")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Tổng tiền")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Ghi chú")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Loại hình thanh toán")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Ngày đặt hàng")
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.code)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.customname)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.phone)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.total)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.description)
+                                </td>
+                                <td>
+                                    @if (item.typepayment == 1)
+                                    {
+                                        <text>COD</text>
+                                    }
+                                    else
+                                    {
+                                        <text>Chuyển khoản</text>
+                                    }
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.datebegin)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-primary">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </a>
+                                    <a href="@Url.Action("Details", new { id = item.id })" class="btn btn-info">
+                                        <i class="fa fa-info-circle"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section _Footer
+{
+
+    <!-- Page level plugins -->
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/Scripts/demo/datatables-demo.js"></script>
+}

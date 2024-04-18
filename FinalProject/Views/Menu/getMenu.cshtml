@@ -1,0 +1,76 @@
+﻿@model IEnumerable<FinalProject.Models.Menu>
+
+<style>
+    .amado-nav li {
+        list-style-type: none;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .active .submenu {
+        display: block;
+    }
+    .submenu li {
+        display: block;
+        padding: 1px;
+        background-color: #fff;
+        color: #000;
+        border-bottom: 1px solid #ccc;
+        text-align: center; /* căn giữa nội dung */
+         /* thay đổi kích thước font chữ */
+    }
+</style>
+
+@foreach (var i in Model)
+{
+    <nav class="amado-nav" style="font-family: 'Montserrat', sans-serif; font-weight: bold; border-bottom: 2px solid #ccc;">
+        @if (i.name == "Sản phẩm")
+        {   
+            <li>
+                <a href="#" class="dropdown-toggle" style="display: inline-block;">@i.name</a>
+                <ul class="submenu">
+                    <ul class="submenu" style="font-family: 'Roboto Slab', serif; ">
+                        @{ Html.RenderAction("getCategoryList", "Product");}
+                    </ul>
+                </ul>
+            </li>
+        }
+        else
+        {
+            <li>
+                <a href="@i.link/@i.meta" style="display: inline-block;">@i.name</a>
+            </li>
+        }
+    </nav>
+}
+
+<script>
+    var currentPage = window.location.href;
+    var links = document.querySelectorAll('.amado-nav > li:first-child');
+
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i].querySelector('a');
+        var href = link.getAttribute('href');
+
+        if (currentPage === href) {
+            links[i].classList.add('active');
+        }
+    }
+
+    var submenu = document.querySelector('.amado-nav > li:first-child > .submenu');
+    var link = document.querySelector('.amado-nav > li:first-child > .dropdown-toggle');
+
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+        var parent = this.parentNode;
+        if (parent.classList.contains('active')) {
+            parent.classList.remove('active');
+            submenu.classList.remove('submenu');
+        } else {
+            parent.classList.add('active');
+            submenu.classList.add('submenu');
+        }
+    });
+</script>

@@ -1,0 +1,146 @@
+﻿@model IEnumerable<FinalProject.Models.user>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_Layout.cshtml";
+}
+
+@section _Header
+{
+    <link href="~/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="container">
+        <h1 class="text-center text-uppercase text-primary text-shadow">
+            <i class="fas fa-list"></i> Quản Lý User
+        </h1>
+    </div>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <p>
+                        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-outline-primary" })
+                    </p>
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.username)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.password)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.fullname)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.email)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.phone)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.image)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.status)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.admin)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.datebegin)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.username)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.password)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.fullname)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.phone)
+                                </td>
+                                <td>
+                                    <img src="~/Content/img/save-img/@item.image" width="100px" />
+                                </td>
+                                <td>
+                                    @if (item.status == true)
+                                    {
+                                        <text>Cho phép</text>
+                                    }
+                                    else if (item.status == false)
+                                    {
+                                        <text>Không cho phép</text>
+                                    }
+                                    else
+                                    {
+                                        <text>Không có trạng thái</text>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.admin == true)
+                                    {
+                                        <text>Cho phép</text>
+                                    }
+                                    else if (item.admin == false)
+                                    {
+                                        <text>Không cho phép</text>
+                                    }
+                                    else
+                                    {
+                                        <text>Không có trạng thái</text>
+                                    }
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.datebegin)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-primary">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </a>
+                                    <a href="@Url.Action("Details", new { id = item.id })" class="btn btn-info">
+                                        <i class="fa fa-info-circle"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section _Footer
+{
+
+    <!-- Page level plugins -->
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/Scripts/demo/datatables-demo.js"></script>
+}

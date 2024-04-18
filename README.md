@@ -1,5 +1,5 @@
 # Update: April 18, 2024
-# Tenis Store Website using ASP.NET
+# Tennis Store Website using ASP.NET
 This is a web application for selling Ten online, built using ASP.NET framework.
 
 ## Demo on Youtube
@@ -23,7 +23,7 @@ The application includes an admin login system to access the management function
 ### Sales Page
 The sales page is designed to display products, news articles, and menus to the customers. Key features of the sales page include:
 
-- Displaying a variety of furniture products.
+- Display of tennis equipment
 - Showcasing the latest news and updates.
 - Navigation through different menus and categories.
 ### Payment Process

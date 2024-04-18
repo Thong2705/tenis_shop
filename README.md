@@ -3,7 +3,7 @@
 This is a web application for selling Ten online, built using ASP.NET framework.
 
 ## Demo on Youtube
-Youtube link: https://www.youtube.com/watch?v=OnwImj-Hqa4
+Youtube link: https://youtu.be/CLK5lbKVcmI
 
 ## Responsibilities
 ### Admin Site Management
